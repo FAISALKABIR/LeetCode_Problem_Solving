@@ -14,7 +14,7 @@ class Solution:
             if (s == 1):
                 s = 1
                 carry = 0
-            if (s == 2):
+            elif (s == 2):
                 s = 0
                 carry = 1
             elif (s == 3):
